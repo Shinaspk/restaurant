@@ -1,0 +1,164 @@
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+   
+}
+.linkitems{
+    display: inline-block;
+    margin: 10px ;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.pages{
+    text-decoration:none;
+    font-weight: bold;
+    color:gainsboro
+    
+
+}
+.coffee{
+   background-image: url(./images/b67a82146344249.62aefb8042464.gif);   /* <--gif image --> */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+    
+}
+.treat{
+    margin-top: 250px;
+    padding: 100px;
+    color: burlywood;
+    font-family: 'Stardos Stencil', cursive;
+    font-size: x-large;
+    
+}
+button{
+    background-color: lightblue;
+     color: white; 
+     border-radius: 10px;
+      height: 40px;
+      font-weight: bold;
+      font-size: 20px;
+}
+.lift{
+    display: flex;
+    background-color: gainsboro;
+}
+.summer{
+    margin-top: 100px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.summer_new{
+    width: 200px;
+    height: 500px;
+    
+    margin-left: 20px;
+
+}
+.summer_new img:hover{
+    transform: scale(1.1) ;
+
+
+
+}
+.summer_new img{
+    width: 100%;
+    height: 250px;
+    transition: .5s ease;
+}
+.pages:hover{
+    color: orangered;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    
+    margin: 3%;
+}
+.icons{
+    border-radius: 50%;
+    /* border: 1px solid; */
+    margin: 0px 10px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icons:hover{
+    background-image: linear-gradient( to bottom right, red, yellow  );
+}
+.icons:hover i{
+    color: white;
+     animation: shake .5s;
+
+}
+
+@keyframes shake{
+    10%{
+        transform:rotate(15deg);
+    
+    }
+  40%{
+    transform:rotate(-15deg);
+  }
+}
+
+.youtube{
+    display: inline-block;
+    margin: 0px 17px;
+}
+
+.input {
+    width: 300px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input label{
+    color: blue;
+    font-size: large;
+}
+.submit{
+    margin-left:130px;
+}
+.submit:hover{
+    background-color:green
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: khaki;
+}
+.form{
+    background-image: url(https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8=);
+    background-position: top;
+    height: 700px;
+    background-size: cover;
+
+}
+.form1{
+    margin-left: 60%;
+}
+.uparrow{
+    background-image: linear-gradient(to bottom right, yellow, red);
+    float: right;
+    margin: 0px 10px 50px 0px;
+    border-radius: 50%;
+}
+
+    
